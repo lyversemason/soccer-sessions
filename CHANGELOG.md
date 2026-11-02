@@ -1,7 +1,17 @@
 # Changelog
 
 Every version is tagged in git (`vX.Y.Z`). To restore one, check out its tag and
-commit it as a new version; history is never rewritten.
+commit it as a new version; history is never rewritten (one exception: v3.1.1).
+
+## v3.1.1 (2026-11-02 ET): build notes only
+
+- Removed notes unrelated to the build: one line in `docs/accounts-plan.md` and the
+  header comment in `src/ui/guide.ts`. No change to the app.
+- Added `CLAUDE.md` (rules for agents working on the repo); `CLAUDE.local.md` is
+  ignored by git.
+- One-time history rewrite: every earlier version got the same edits, so no version in
+  git still has those notes. Every commit's date and message and every tag were kept;
+  only commit IDs changed. Anyone with an older clone should clone again.
 
 ## v3.1.0 (2026-11-01 ET): Hours & pay
 

@@ -168,3 +168,10 @@ sending service).
 - **`src/views/`**: one screen per role/task, React.
 - Static build (Vite) deployed to GitHub Pages. No backend: each visitor gets their
   own copy of the demo company in their browser, and "Reset demo" restores it.
+
+## Versions and history
+
+Every change is a new version with a CHANGELOG entry and a git tag; old versions are
+restored by committing them again, never by rewriting history. The one exception was
+v3.1.1 (2026-11-02): every earlier version was rewritten once to remove notes unrelated
+to the build, keeping each commit's date and message and every tag.
